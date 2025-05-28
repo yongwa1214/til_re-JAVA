@@ -8,6 +8,6 @@ public class AccuracyExample02 {
         int result = totalPieces - number;
         System.out.println("10조각에서 남은 조각: " + result);
         System.out.println("사과 1개에서 남은 양: " + result/10.0);
-        System.out.printf("사과 1개에서 남은 양: 0.%d\n", result );
+        System.out.printf("사과 1개에서 남은 양: 0.%d\n", result);
     }
 }
