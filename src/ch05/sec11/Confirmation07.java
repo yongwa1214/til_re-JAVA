@@ -11,5 +11,11 @@ public class Confirmation07 {
 
         }
         System.out.println(max);
+
+
+        String city;
+
+        city = "서울";
+
     }
 }
