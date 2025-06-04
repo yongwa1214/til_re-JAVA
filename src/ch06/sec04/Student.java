@@ -1,7 +1,7 @@
 package ch06.sec04;
 
 public class Student {
-    String name;
+    String name; // 멤버필드: 값을 저장함
     /*
     생성자와 메소드 구분
     1. 생성자 이름은 클래스명과 동일하다
