@@ -3,7 +3,8 @@ package ch05.sec05;
 public class SubStringExample {
     public static void main(String[] args) {
         String str = "ABCDEFGHIJKLMN";
-        String str2 = str.substring(8); // substring(여기에)하나 보내면 끝까지 가져옴 인자 두개 보내면 범위 지정가능
+        String str2 = str.substring(8);
+        // substring(여기에)하나 보내면 끝까지 가져옴 인자 두개 보내면 범위 지정가능
         String str3 = str.substring(11);
 
         System.out.println(str);

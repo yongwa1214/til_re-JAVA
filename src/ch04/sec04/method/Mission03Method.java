@@ -14,24 +14,23 @@ public class Mission03Method {
         printTriangle(star);
     }
 
-    public static void printSingleLine(int star) {
-        for (int i = 0; i < star; i++) {
+    public static void printSingleLine(int cnt) {
+        for (int i = 0; i < cnt; i++) {
             System.out.print("*");
         }
         System.out.println();
     }
-    public static void printMultiLine(int num){
-        for(int i =0; i< num; i++){
-            printSingleLine(num);
+    public static void printMultiLine(int cnt){
+        for(int i =0; i< cnt; i++){
+            printSingleLine(cnt);
         }
     }
     public static void printTriangle(int num){
-        for(int i = 0; i<num; i++){
-            for(int k = 0; k<=i; k++ ){
-                System.out.print("*");
+        for(int i = 1; i<=num; i++){
+            printSingleLine(i);
             };
             System.out.println();
 
-        }
+
     }
 }
