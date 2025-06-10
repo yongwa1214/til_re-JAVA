@@ -1,8 +1,7 @@
-package ch06.sec08;
+package ch06.sec08.exam01;
 
 public class CalculatorExample {
     // 여기서(클래스 직속) 변수 선언된거면 그게 멤버 필드(전역)임
-
     public static void main(String[] args) {
         //static 있으면 객체화 필요 없음. 필요에 의해 사용됨
         //static 없으면 객체화 필요함

@@ -1,4 +1,4 @@
-package ch06.sec08;
+package ch06.sec08.exam01;
 
 public class Calculator {
     // void 메소드: 이건 값을 안 (돌려)준다 return 안됨

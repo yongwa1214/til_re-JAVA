@@ -12,7 +12,9 @@ public class Student {
     메소드명, 매개변수(파라미터), 리턴타입 >> 선언부
     {여기는 구현부라고 한다 }
     */
-    public Student() {}
+    public Student() {
+        System.out.println("기본 생성자 호출!");
+    }
 
 //  리턴타입  매소드명 (매개변수)
     void introduce(){
