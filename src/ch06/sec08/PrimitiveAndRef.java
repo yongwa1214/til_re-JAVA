@@ -11,7 +11,7 @@ public class PrimitiveAndRef {
         changeNum(numbox);
         System.out.println("numbox.num: " + numbox.num);
 
-        // 주소값이요?
+        // 주소값 차이요?
     }
 
     public static void changeNum(int num){
@@ -19,7 +19,7 @@ public class PrimitiveAndRef {
     }
 
     public static void changeNum(Numbox numbox){
-        numbox.num=20;
+        numbox.num = 20;
     }
 }
 
