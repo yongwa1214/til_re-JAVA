@@ -1,7 +1,8 @@
 package ch06.sec11;
 
 import java.io.PrintStream;
-
+// import ch06 << 이건 ch06 밑에 있는 java class 들만 사용할 수 있음
+// 지금은 없으니 아무것도 없다
 public class FinalStudy {
     public static void main(String[] args) {
         final int NUM = 10;
