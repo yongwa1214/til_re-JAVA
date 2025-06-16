@@ -18,6 +18,6 @@ public class Card {
     }
     @Override
     public String toString(){
-        return String.format("%s (%s)\n", this.patten, this.denomination);
+        return String.format("%s (%s)", this.patten, this.denomination);
     }
 }

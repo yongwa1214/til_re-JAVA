@@ -2,7 +2,7 @@ package blackjack;
 
 public class CardDeck {
     private Card[] cards = new Card[52];
-    private String[] patterns = {"♠", "♡", "◇", "♣"};
+    private String[] patterns = {"S", "H", "D", "C"};
     private int selectedIdx = 0;
     // 패턴은 Spade, Heart, Diamond, Clover
     // 디노미네이션  a,2,3,4,5,6,7,8,9,0,j,q,k
