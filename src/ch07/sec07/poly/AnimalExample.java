@@ -7,6 +7,7 @@ public class AnimalExample {
         Tiger tiger = new Tiger();
         Dog dog = new Dog();
         Cow cow = new Cow();
+<<<<<<< HEAD
         Chihuahua chihuahua = new Chihuahua();
 
         animalCrying(cat);
@@ -29,4 +30,14 @@ public class AnimalExample {
         }
 
     }
+=======
+
+        animalCrying(cat);
+        animalCrying(tiger);
+    }
+
+    public static void animalCrying(Animal animal){
+        animal.crying();
+    } // 다형성을 써먹는다 
+>>>>>>> a97c9335e42a3f6bb01628661537f4446c17c104
 }
