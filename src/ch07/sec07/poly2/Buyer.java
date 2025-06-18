@@ -33,7 +33,7 @@ public class Buyer {
             money -= p1.getPrice();
             bonusPoint += p1.getBonusPoint();
             System.out.println(p1 + "을/를 구입하였습니다.");
-            System.out.printf("%d 포인트 적립!\n \n", bonusPoint);;
+            System.out.printf("%d 포인트 적립!\n \n", bonusPoint);
         }
     }
 
