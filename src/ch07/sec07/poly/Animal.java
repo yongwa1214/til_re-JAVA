@@ -6,7 +6,11 @@ public abstract class Animal {
     // 예) 채소 - 당근, 오이, 양배추 ...etc 야채의 경우 야채라는 실체가 없음 > 개념
     // 추상 메소드를 단 하나라도 가지고 있다면 그 클래스는
     // 추상 클래스가 되어야한다.
-    // 추상메소드는 구현부 없음
+    // 추상메소드는 구현부 없음(내용없음)
+    // abstract class는 객체화 불가능 | 상속목적
+    private int age;
+
+
 
     // static과 동시사용 불가 static은 내용이 있어야함 abstract는 내용이 없어야함
     public abstract void crying();
